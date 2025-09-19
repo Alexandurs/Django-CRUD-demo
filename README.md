@@ -1,4 +1,4 @@
-Fully working CRUD (Create, Read, Update, and Delete) application to manage automobiles and their makes (i.e. Ford, Hyundai, Toyota, Tata, Audi, etc.).
+Fully working* CRUD (Create, Read, Update, and Delete) application to manage automobiles and their makes (i.e. Ford, Hyundai, Toyota, Tata, Audi, etc.).
 
 Setup
 ```
