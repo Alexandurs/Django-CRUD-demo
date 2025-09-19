@@ -26,7 +26,7 @@ cd django_autos_CRUD
 ### Create & activate a virtual environment
 ```
 python -m venv venv
-source venv/bin/activate   # on Windows: venv\Scripts\activate
+source venv/bin/activate   
 ```
 ### Install dependencies
 ```
