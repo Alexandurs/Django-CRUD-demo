@@ -1,14 +1,16 @@
 {% extends "base_bootstrap.html" %}
 {% block title %}Delete Auto{% endblock %}
+
 {% block content %}
+  <h1 class="my-4">Delete Auto</h1>
 
-<h1>Delete Auto</h1>
+  <div class="alert alert-danger" role="alert">
+    Are you sure you want to delete the auto: <strong>{{ auto }}</strong>?
+  </div>
 
-<p>Are you sure you want to delete the auto: {{ auto }}?</p>
-
-<form action="" method="POST">
-  {% csrf_token %}
-  <input type="submit" value="Yes, delete.">
-</form>
-
+  <form method="post" class="d-flex gap-2">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">Yes, delete</button>
+    <a href="{% url 'autos:all' %}" class="btn btn-secondary">Cancel</a>
+  </form>
 {% endblock %}
